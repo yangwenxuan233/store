@@ -1,0 +1,71 @@
+XML类型使用说明书：
+URL:http://localhost:8080/api/pcrq/xml/singleRequest
+方式：post
+发送报文：
+<?xml version="1.0" encoding="GBK"?>
+	<ROOT type="request">
+		<std400flag>N</std400flag>
+		<stdmsgtype>0100</stdmsgtype>
+		<stdprocode>9000002</stdprocode>
+		<stdbankno>001</stdbankno>
+		<std400usno>0279</std400usno>
+		<std400cvtp>00</std400cvtp>
+		<std400encv>null</std400encv>
+		<std400aqid>POBS</std400aqid>
+		<stdtermtrc>POBS20180825011455522</stdtermtrc>
+		<std400rbdt>20180309</std400rbdt>
+		<std400rtim>095001</std400rtim>
+		<std400rsts>2018-03-09-09.50.01.000166</std400rsts>
+		<std400tcsq>1</std400tcsq>
+		<std400qsys>EPBP</std400qsys>
+		<std400sdtp>2</std400sdtp>
+		<std400acur>00</std400acur>
+		<stdtermtyp>N</stdtermtyp>
+		<stdtermid>INTERNET</stdtermid>
+		<std400revf>N</std400revf>
+		<stdrefnum>032100077216</stdrefnum>
+		<std400rstr>9000002</std400rstr>
+		<std400sbdt>20180309</std400sbdt>
+		<certifId>101</certifId>
+		<certifCode>123</certifCode>
+		<customerNa>test</customerNa>
+	</ROOT>
+
+出参说明：
+	1.如果<certifId>101</certifId>参入的参数不是101，则系统会报错
+	2.否则，接受成功的标识：<std400mgid>AAAAAAA</std400mgid>
+
+
+
+
+
+
+JSON类型接口使用说明书：
+URL:http://localhost:8080/api/pcrq/json/singleRequest
+method:post
+入参的json报文：
+{"head":
+	{"std400imtl":"","std400flag":"N","stdmsgtype":"0100","std400pgqf":"N","std400dauf":"N","std400revf":"N","std400hfdf":"N","std400nfhf":"N","std400macf":"N","std400psem":"","std400cdfg":"","std400fil1":"","std400bsys":"NRCS","stdtermtyp":"NRCS","stdtermid":"A123","stdprocode":"QPCR101","std400rstr":"QPCR101","stdbankno":"001","stdobankno":"","std400span":"","stdtranins":"723000","std400usno":"changjunyi_tj","std400apru":"","std400aqid":"NRCS","stdtermtrc":"NRCS180822093916761627","std400rbdt":"20180822","std400rsts":"2018-08-22-09.39.16.192","std400rtim":"093916","std400tcsq":"0","std400qsys":"","std400ssys":"","std400ssjn":"","std400sbdt":"","std400swts":"","std400stim":"","std400tsys":"","std400tref":"","std400trfg":"","std400ssid":"","std400encv":"","std400autl":"","std400sacm":"","std400dasp":"","std400dacm":"","std400pgtk":"","std400pgsn":"","std400pgoq":"","std400pgts":"","std400sdtp":"","std400etmk":"","std400etom":"","std400etap":"","std400etcm":"","wfsworkseq":"","std400trim":"","std400cfim":"","std400vlno":"","std400vlff":"","std400fpnd":"","std400meno":"","std400cvfc":"","stdbillamt":"","std400fil2":"","std400darl":"","std400feel":"","std400cybl":"","std400agbl":"","std400ufbl":"","std400bfrl":"","std400inpl":"","DARABUF":"","FEDABUF":"","CYBDBUF":"","AGBDBUF":"","UFBDBUF":"","stdrefnum":"032111381622"},"body":{"certType":"0","certNo":"110108198611200123","name":".....................","primaryBranch":"723000","queryReason":"02","querySign":"0","queryTimeLimit":"1","contentCode":"000002","authoMatch":"Y","letterAuthorizationId":"","authScene":"","authEffDays":"","authExpDays":"","replyId":"","touchNum":""}
+}
+
+响应报文：
+	错误标识：
+	成功标识："std400mgid":"AAAAAAA"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
