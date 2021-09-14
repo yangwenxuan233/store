@@ -84,6 +84,8 @@ class Student(Addresss):
     def setPassword(self, password):
         if len(password) <= 12 and len(password) >= 6:
             self.__password = password
+        else:
+            print("请正确输入密码！")
 
     def getPassword(self):
         return self.__password
@@ -102,5 +104,3 @@ class Student(Addresss):
 
     def getEmigrant_data(self):
         return self.__emigrant_date
-
-    

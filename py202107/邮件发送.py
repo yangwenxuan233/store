@@ -19,6 +19,7 @@ message["TO"] = Header("测试", "utf-8")
 message["Subject"] = Header(subject, "utf-8")
 
 message.attach(MIMEText("这是附件", "plain", "utf-8"))
+
 # 构造附件1，传送当前目录下的 test.txt 文件
 att1 = MIMEText(open('calcdev.txt', 'rb').read(), 'base64', 'utf-8')
 att1["Content-Type"] = 'application/octet-stream'

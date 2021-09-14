@@ -34,8 +34,9 @@ class TestLogin(TestCase):
         login = LoginPage(self.driver)
         login.login(username, password)
 
-        #  获取实际结果
+        # 获取实际结果
         result = login.get_succes_data()
+        # 错误截图
         if result != expect:
             self.imgs.append(self.driver.get_screenshot_as_base64())
         # 断言
@@ -52,9 +53,9 @@ class TestLogin(TestCase):
         login = LoginPage(self.driver)
         login.login(username, password)
 
-        #  获取实际结果
+        # 获取实际结果
         result = login.get_error_data()
-
+        # 失败截图
         if result != expect:
             self.imgs.append(self.driver.get_screenshot_as_base64())
         # 断言

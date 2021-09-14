@@ -68,12 +68,12 @@ def send_email(name):
         print("无法发送邮件")
 
 
-run_case(r"D:\pscode\demo\day13hw", "testMul.py", "mul")
-run_case(r"D:\pscode\demo\day13hw", "testDev.py", "dev")
-run_case(r"D:\pscode\demo\day13hw", "testAdd.py", "add")
-run_case(r"D:\pscode\demo\day13hw", "testSub.py", "sub")
+# run_case(r"D:\pscode\demo\day13hw", "testMul.py", "mul")
+# run_case(r"D:\pscode\demo\day13hw", "testDev.py", "dev")
+# run_case(r"D:\pscode\demo\day13hw", "testAdd.py", "add")
+# run_case(r"D:\pscode\demo\day13hw", "testSub.py", "sub")
 
-send_email("add")
-send_email("sub")
-send_email("mul")
-send_email("dev")
+# send_email("add")
+# send_email("sub")
+# send_email("mul")
+# send_email("dev")

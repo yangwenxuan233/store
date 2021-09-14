@@ -6,6 +6,7 @@ def md5(str):
     m.update(str.encode("utf8"))
     return m.hexdigest()
 
+
 a = input()
 b = input()
 
@@ -13,5 +14,5 @@ b = input()
 def setkey(setaccount, setIDcard):
     return str(md5(setaccount) + md5(setIDcard))
 
+
 print(setkey(a, b))
- 

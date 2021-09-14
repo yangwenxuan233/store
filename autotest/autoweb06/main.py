@@ -26,7 +26,7 @@ def send_email(name):
     smtpserver = 'smtp.qq.com'
     sender = '1282398184@qq.com'
     password = 'pbcqpkvgbkdfbaai'
-    receiver = '2431320433@qq.com'  # '1282398184@qq.com'  '2431320433@qq.com'
+    receiver = '1282398184@qq.com'  # '1282398184@qq.com'  '2431320433@qq.com'
     mail_title = '微博app测试用例执行结果'
 
     # 构造邮件对象

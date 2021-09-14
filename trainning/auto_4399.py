@@ -1,6 +1,7 @@
 import pyautogui
 import time
 
+# 安全模式
 pyautogui.FAILSAFE = True
 
 time.sleep(3)

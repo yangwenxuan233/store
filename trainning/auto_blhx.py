@@ -22,31 +22,31 @@ class Autoblhx():
         time.sleep(50)  # 等待app启动
 
         # 触屏进入
-        self.driver.tap([(1200, 300)], 500)
+        self.driver.tap([(1200, 300)], 200)
         time.sleep(5)
         # 关闭系统公告
-        self.driver.tap([(1200, 78)], 500)
+        self.driver.tap([(1200, 78)], 200)
         time.sleep(3)
         # 点击出击
-        self.driver.tap([(1062, 383)], 500)
+        self.driver.tap([(1062, 383)], 200)
         time.sleep(3)
         # 选择模式
-        self.driver.tap([(750, 232)], 500)
+        self.driver.tap([(300, 320)], 200)
         time.sleep(3)
         # 选择关卡
-        self.driver.tap([(680, 590)], 500)
+        self.driver.tap([(685, 370)], 200)
         time.sleep(3)
         # 立刻前往
-        self.driver.tap([(950, 520)], 500)
+        self.driver.tap([(950, 520)], 200)
         time.sleep(3)
-        self.driver.tap([(1070, 600)], 500)
+        self.driver.tap([(1070, 600)], 200)
         time.sleep(30)
         # 重复再次前往
         for i in range(60):
             try:
-                self.driver.tap([(840, 620)], 500)
+                self.driver.tap([(840, 620)], 200)
                 time.sleep(1)
-                self.driver.tap([(890, 200)], 500)
+                self.driver.tap([(890, 200)], 200)
                 time.sleep(30)
             except Exception as e:
                 print(str(e))
@@ -55,5 +55,4 @@ class Autoblhx():
         self.driver.quit()  # 退出driver
 
 
-rua = Autoblhx()
-rua.start()
+Autoblhx.start(Autoblhx)
