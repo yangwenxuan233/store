@@ -25,7 +25,7 @@ year = {}  # 空数据库
 month_keys = []
 total = {}
 
-wd = xlrd.open_workbook("2020年每个月的销售情况.xlsx", encoding_override=True)
+wd = xlrd.open_workbook(r"D:\pycode\py202107\2020年每个月的销售情况.xlsx", encoding_override=True)
 
 for k in range(12):
     month = str(k + 1) + "月"  # 遍历sheet
@@ -56,6 +56,8 @@ for k in range(12):
             "sales": data[2] * (count_clothes + data[4])
         }
     year[month] = clothes
+
+print(year)
 
 sales_year = 0
 for i in year:

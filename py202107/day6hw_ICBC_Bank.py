@@ -98,7 +98,7 @@ class Bank():
         if account_save not in self.bank:
             return False
         else:
-            self.bank[account_save]["money"] = self.bank[account_save]["money"] + money_save
+            self.bank[account_save]["money"] += money_save
             return True
 
     # 存钱操作逻辑

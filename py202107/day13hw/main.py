@@ -18,8 +18,7 @@ from email.mime.application import MIMEApplication
 
 def run_case(path, case, name):
     # 1.加载所有用例
-    tests = unittest.defaultTestLoader.discover(path, pattern=case)
-
+    tests = unittest.defaultTestLoader.discover(path, case)
     # 2.使用运行器
     runner = HTMLTestRunner.HTMLTestRunner(
         title="这是一份计算器的测试报告",

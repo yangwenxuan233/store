@@ -28,13 +28,13 @@ class Autoblhx():
         self.driver.tap([(1200, 78)], 200)
         time.sleep(3)
         # 点击出击
-        self.driver.tap([(1062, 383)], 200)
+        self.driver.tap([(350, 383)], 200)
         time.sleep(3)
         # 选择模式
-        self.driver.tap([(300, 320)], 200)
+        self.driver.tap([(800, 220)], 200)
         time.sleep(3)
         # 选择关卡
-        self.driver.tap([(685, 370)], 200)
+        self.driver.tap([(700, 380)], 200)
         time.sleep(3)
         # 立刻前往
         self.driver.tap([(950, 520)], 200)
@@ -42,7 +42,7 @@ class Autoblhx():
         self.driver.tap([(1070, 600)], 200)
         time.sleep(30)
         # 重复再次前往
-        for i in range(60):
+        for i in range(200):
             try:
                 self.driver.tap([(840, 620)], 200)
                 time.sleep(1)

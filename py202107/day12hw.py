@@ -22,6 +22,9 @@ class Customer(Thread):
     count = 0
     name = ""
 
+    def __init__(self, name):
+        self.name = name
+
     def setName(self, name):
         self.name = name
 

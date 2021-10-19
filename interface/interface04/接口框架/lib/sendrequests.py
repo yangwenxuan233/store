@@ -2,15 +2,18 @@
 # _*_ coding:utf-8 _*_
 __author__ = 'jason'
 
-import os,sys,json
+import os
+import sys
+import json
+
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 
 class SendRequests():
     """发送请求数据"""
-    def sendRequests(self,s,apiData):
+    def sendRequests(self, s, apiData):
         try:
-            #从读取的表格中获取响应的参数作为传递
+            # 从读取的表格中获取响应的参数作为传递
             method = apiData["method"]
             url = apiData["url"]
             if apiData["params"] == "":
@@ -34,8 +37,8 @@ class SendRequests():
             else:
                 body = body_data
 
-            #发送请求
-            re = s.request(method=method,url=url,headers=h,params=par,data=body,verify=v)
+            # 发送请求
+            re = s.request(method=method, url=url, headers=h, params=par, data=body, verify=v)
             return re
         except Exception as e:
             print(e)
