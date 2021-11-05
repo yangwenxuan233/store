@@ -17,7 +17,7 @@ list1 = [[10, 14, 9, 15],
 
 for i in list1:
     for x in i:
-        if all([x == max(i), x == min([t[i.index(x)] for t in list1])]) is True:
+        if all([x == max(i), x == min([t[i.index(x)] for t in list1])]):
             print(x, "是鞍点，位于矩阵的第", list1.index(i) + 1, "行，第", i.index(x) + 1, "列")
 
 
@@ -42,6 +42,8 @@ n = 6
 randArray = np.random.randint(100, size=(n, n))
 print(randArray)
 
+
 for i in range(n):
     randArray[:, i:n-i][i:n-i] = i + 1
+
 print(randArray)

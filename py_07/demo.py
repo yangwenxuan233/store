@@ -20,7 +20,7 @@
     "background.useDefault": false,
     "backgroundCover.imagePath": "d:\\Picture\\background.jpg", //是否使用默认图片
 
-'''
+# '''
 # import time
 
 
@@ -30,24 +30,24 @@
 
 # print(now_time())
 
-# from selenium import webdriver
-# import time
+from selenium import webdriver
+import time
 
-# # 创建谷歌浏览器对象
-# chromeDriver = webdriver.Chrome()
+# 创建谷歌浏览器对象
+chromeDriver = webdriver.Chrome()
 
-# # 打开百度网址
-# chromeDriver.get("http://www.baidu.com")
+# 打开百度网址
+chromeDriver.get("http://www.baidu.com")
 
-# # 窗口最大化
-# chromeDriver.maximize_window()
+# 窗口最大化
+chromeDriver.maximize_window()
 
-# # 寻找搜索输入框
-# chromeDriver.find_element_by_id("kw").send_keys("java")
+# 寻找搜索输入框
+chromeDriver.find_element_by_id("kw").send_keys("java")
 
-# # 点击百度一下按钮
-# chromeDriver.find_element_by_id("su").click()
-# time.sleep(3)
+# 点击百度一下按钮
+chromeDriver.find_element_by_id("su").click()
+time.sleep(3)
 
-# # 退出浏览器
-# chromeDriver.quit()
+# 退出浏览器
+chromeDriver.quit()

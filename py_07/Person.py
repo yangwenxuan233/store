@@ -12,6 +12,8 @@
                 return self.__xxx
 
 '''
+
+
 class Person:
     __username = ""
     __age = 0

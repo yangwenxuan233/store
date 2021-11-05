@@ -8,6 +8,7 @@ f = open(r"D:\pycode\py202107\day15hw\baidu_x_system.log", mode="r+", encoding="
 # ip = [i[0] for i in list]
 
 ip = [i[0] for i in [i.split(" ") for i in f.readlines()]]
+
 print(ip)
 
 # 统计ip出现次数
