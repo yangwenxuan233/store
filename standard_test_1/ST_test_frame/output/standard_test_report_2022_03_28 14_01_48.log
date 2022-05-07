@@ -1,0 +1,73 @@
+2022-03-28 14:01:48,905   11004     INFO test_runner.py(156) - 预计并发线程数：1
+2022-03-28 14:01:48,917   15880     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:01:49,208   15880    ERROR result.py(177) - 测试产生错误： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_abnormal_size.py", line 49, in test_upgrade_fail
+    self.firmware_name = kwargs['abnormal_size_sros_path']
+KeyError: 'abnormal_size_sros_path'
+
+2022-03-28 14:01:49,238   15880     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:01:49,268   15880     INFO result.py(93) - 耗时： 0.2949061393737793
+2022-03-28 14:01:49,300   15880     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-03-28 14:01:49,468   15880    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_back_edition.py", line 49, in test_upgrade_success
+    self.firmware_name = kwargs['old_sros_path']
+KeyError: 'old_sros_path'
+
+2022-03-28 14:01:49,499   15880     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-03-28 14:01:49,530   15880     INFO result.py(93) - 耗时： 0.1691267490386963
+2022-03-28 14:01:49,545   15880     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-03-28 14:01:49,702   15880    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_completely_upgrade.py", line 49, in test_upgrade_success
+    self.firmware_name = kwargs['new_sros_path']
+KeyError: 'new_sros_path'
+
+2022-03-28 14:01:49,734   15880     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-03-28 14:01:49,764   15880     INFO result.py(93) - 耗时： 0.15653085708618164
+2022-03-28 14:01:49,796   15880     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)
+2022-03-28 14:01:49,950   15880    ERROR result.py(177) - 测试产生错误： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_damaged_format.py", line 49, in test_upgrade_fail
+    self.firmware_name = kwargs['damaged_format_sros_path']
+KeyError: 'damaged_format_sros_path'
+
+2022-03-28 14:01:49,966   15880     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)
+2022-03-28 14:01:49,997   15880     INFO result.py(93) - 耗时： 0.14112210273742676
+2022-03-28 14:01:50,027   15880     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-03-28 14:01:50,035   15880    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_different_edition.py", line 49, in test_upgrade_success
+    self.firmware_name = kwargs['old_sros_path']
+KeyError: 'old_sros_path'
+
+2022-03-28 14:01:50,038   15880     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-03-28 14:01:50,038   15880     INFO result.py(93) - 耗时： 0.006975412368774414
+2022-03-28 14:01:50,042   11004    ERROR test_runner.py(195) - 
+Error	test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)	test_upgrade_fail_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)	test_upgrade_success_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)	test_upgrade_success_1
+Error	test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)	test_upgrade_fail_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)	test_upgrade_success_1
+
+2022-03-28 14:01:50,044   11004     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:01.295310
+共计执行用例数量：5
+执行成功用例数量：0
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：5
+
+2022-03-28 14:01:50,046   11004     INFO logs.py(46) - 测试结束，生成基于HTML的测试报告

@@ -1,0 +1,23 @@
+adb connect 127.0.0.1:62001 连接夜神模拟器
+adb devices  查看安卓设备的连接状态
+adb version 查看adb版本号
+adb kill-server 杀死adb服务
+adb install [路径+文件.apk]
+adb install -r [路径+文件名.apk]
+adb shell pm list package 查看手机所有安装的包名
+adb shell pm list package -3   查看安卓设备上自己安装的包名
+aapt d badging [路径+文件名.apk]  查找包名和activity的值
+aapt d badging [路径+文件名.apk] | findstr "package launchable-activity"
+精确查找包名和activity的值
+adb uninstall [apk的包名]  卸载apk
+adb shell pm uninstall -k [apk的包名]  保留数据和缓存文件删除应用程序
+adb push [开发机文件目录+文件名称] [安卓设备文件目录]   从开发机复制文件到安卓设备
+adb pull [安卓设备文件目录+文件名称]  [开发机目录]      从安卓设备赋值文件到开发机
+adb logcat  打印日志
+adb logcat > [文件目录+文件名称]  重定向日志
+adb shell dumpsys window | findstr mCurrentFocus  查看当前运行的包名和activity的值
+
+adb shell input tap [X轴坐标] [Y轴坐标]    点击屏幕坐标
+adb shell input swipe [X轴开始坐标][Y轴开始坐标][X轴终点坐标][Y轴终点坐标][滑屏时间]  滑屏
+adb shell input keyevent 4 模拟返回键操作
+adb shell screencap -p > a.png 保存当前截图到a.png里

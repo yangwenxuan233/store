@@ -1,0 +1,15 @@
+-
+  ip : 192.168.33.0
+  sros_version : 0.0.1
+  map : 地图
+  station :
+    - 1
+    - 2
+    - 3
+  times : 100
+  login :
+    username : admin
+    passwd : admin
+  check :
+    - result
+

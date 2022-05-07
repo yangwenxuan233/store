@@ -1,0 +1,57 @@
+#=======================================
+# Configuration parameters
+#=======================================
+
+
+ones_api:
+  ones_email: "weisen@standard-robots.com"
+  ones_passwd: "13876603223as"
+
+path:
+  log_output_path: "./log"
+  case_drive_path: "./testCaseDrive/"
+  ones_file_download_path: "./download/ONES/"
+  matrix_file_download_path: "./download/Matrix/"
+  ftp_file_download_path: "./download/FTP/"
+
+dingTalk:
+  SROS:
+    token: 2f512b988df7c4f216ed7ea65843896386213c2ec3887659a2766770f924378a
+    secret: SEC8e3a5387f764269296c7c528237747f372709ecc54650775331ae6ac0f721629
+  SRTOS:
+    token: 9ac550b181547224fc20ff13024d951d7ee5675fc86be56318f84f11427a5ab9
+    secret: SEC8e162b727422946771bb742acfbea3ab7bc741cfa484b520c5da7a4319a819a1
+  debug:
+    token: 5ff3aa6053135d9c1ae50ddac172abc2823ec547770cb632cae3f429b3706a2b
+    secret: SECb6ef30ea5bd047ea64b7961bed677ce53b6d2e39fb3670ddc5596c44edaa5340
+  other:
+    token: 2e9a084d02e2c70c51b4323074cab3cdebe4f897863332055c138a1002756a26
+    secret: SEC13954e3e6035f6190e748a838b36bcea26e3af7391a577cb737f94cd56b1f520
+
+ftp_server:
+  port: 8008
+  user: 'dev'
+  password: 'dev'
+
+email:
+  send_user: 1428785983@qq.com
+  email_host: smtp.qq.com
+  stmp_key: rzuabbobadbuhadc
+  send_list: {}
+
+fms_url: 'http://172.28.1.68:8088/api/v2/'
+
+locate_status :
+  '定位未启动' : 'ERROR'
+  '定位正在初始化' : 'ERROR'
+  '定位成功' : 'LOCATION_STATE_RUNNING'
+  '正在重定位' : 'ERROR'
+  '定位错误，需要重新启动定位' : 'ERROR'
+move_status :
+  '空闲状态' : 'MT_NA'
+  '等待开始执行' : MT_WAIT_FOR_START
+  '正在执行' : 'MT_RUNNING'
+  '暂停执行' : 'MT_PAUSED'
+  '执行结束' : 'MT_FINISHED'
+  '正在取消' : 'MT_IN_CANCEL'
+  '交通管制' : 'MT_WAIT_FOR_CHECKPOINT'

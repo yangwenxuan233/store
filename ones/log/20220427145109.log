@@ -1,0 +1,8 @@
+2022-04-27 14:51:09,895 INFO monitor MainThread]  battery_percentage_electricity 101.0
+2022-04-27 14:51:12,918 INFO monitor MainThread]  battery_temperature(℃)0.0
+2022-04-27 14:51:15,934 INFO monitor MainThread]  battery_voltage(V) 0.0
+2022-04-27 14:51:18,954 INFO monitor MainThread]  battery_current(A) 0.0
+2022-04-27 14:51:21,990 INFO monitor MainThread]  battery_power(W) 0.0
+2022-04-27 14:51:25,035 INFO monitor MainThread]  battery_nominal_capacity(Ah) 0.0
+2022-04-27 14:51:28,091 INFO monitor MainThread]  battery_remain_capacity(Ah) 0.0
+2022-04-27 14:51:31,106 INFO monitor MainThread]  battery_use_cycles 0.0

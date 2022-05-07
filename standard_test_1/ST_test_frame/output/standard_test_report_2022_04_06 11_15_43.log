@@ -1,0 +1,513 @@
+2022-04-06 11:15:43,864    4604     INFO test_runner.py(156) - 预计并发线程数：1
+2022-04-06 11:15:43,868    5588     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-04-06 11:15:44,045    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.update
+2022-04-06 11:15:44,201    5588     INFO logs.py(46) - 正在上传文件...
+2022-04-06 11:16:07,004    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED0CA0A0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED0CA0A0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_abnormal_size.py", line 58, in test_upgrade_fail
+    ret = requests.post(request_URL, files=files)
+  File "D:\Python\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED0CA0A0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:16:07,036    5588     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-04-06 11:16:07,067    5588     INFO result.py(93) - 耗时： 23.1620032787323
+2022-04-06 11:16:07,099    5588     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-04-06 11:16:07,284    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+2022-04-06 11:16:07,471    5588     INFO logs.py(46) - 正在上传文件...
+2022-04-06 11:16:29,129    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED0C0100>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED0C0100>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_back_edition.py", line 58, in test_upgrade_success
+    ret = requests.post(request_URL, files=files)
+  File "D:\Python\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED0C0100>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:16:29,161    5588     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-04-06 11:16:29,192    5588     INFO result.py(93) - 耗时： 22.032273292541504
+2022-04-06 11:16:29,225    5588     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-04-06 11:16:29,412    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+2022-04-06 11:16:29,615    5588     INFO logs.py(46) - 正在上传文件...
+2022-04-06 11:16:51,330    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED16D460>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED16D460>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_completely_upgrade.py", line 58, in test_upgrade_success
+    ret = requests.post(request_URL, files=files)
+  File "D:\Python\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED16D460>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:16:51,361    5588     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-04-06 11:16:51,392    5588     INFO result.py(93) - 耗时： 22.106648445129395
+2022-04-06 11:16:51,423    5588     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-04-06 11:16:51,607    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+2022-04-06 11:16:51,777    5588     INFO logs.py(46) - 正在上传文件...
+2022-04-06 11:17:13,319    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED16DF40>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED16DF40>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_different_edition.py", line 58, in test_upgrade_success
+    ret = requests.post(request_URL, files=files)
+  File "D:\Python\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED16DF40>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:17:13,366    5588     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-04-06 11:17:13,396    5588     INFO result.py(93) - 耗时： 21.911296129226685
+2022-04-06 11:17:13,428    5588     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_multiple_model.TestUpgrade)
+2022-04-06 11:17:13,613    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+2022-04-06 11:17:13,892    5588     INFO logs.py(46) - 正在上传文件...
+2022-04-06 11:17:35,611    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_multiple_model.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED176A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED176A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_multiple_model.py", line 53, in test_upgrade_success
+    self.upgrade()
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_multiple_model.py", line 69, in upgrade
+    ret = requests.post(request_URL, files=files)
+  File "D:\Python\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED176A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:17:35,642    5588     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_multiple_model.TestUpgrade)
+2022-04-06 11:17:35,674    5588     INFO result.py(93) - 耗时： 22.18327045440674
+2022-04-06 11:17:35,722    5588     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_offline.TestUpgrade)
+2022-04-06 11:17:35,891    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.update
+2022-04-06 11:17:57,569    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_offline.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED16D1F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED16D1F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_offline.py", line 66, in test_upgrade_fail
+    last_status = self.get_system_maintenance()
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_offline.py", line 40, in get_system_maintenance
+    sros_ret = requests.get(url=sros_request_url)
+  File "D:\Python\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED16D1F0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:17:57,600    5588     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_offline.TestUpgrade)
+2022-04-06 11:17:57,631    5588     INFO result.py(93) - 耗时： 21.84740400314331
+2022-04-06 11:17:57,663    5588     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_rename.TestUpgrade)
+2022-04-06 11:17:57,665    5588     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+2022-04-06 11:17:57,666    5588     INFO logs.py(46) - 正在上传文件...
+2022-04-06 11:18:18,749    5588    ERROR result.py(177) - 测试产生错误： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_rename.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection
+    raise err
+  File "D:\Python\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "D:\Python\lib\http\client.py", line 1257, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1303, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1252, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\Python\lib\http\client.py", line 1012, in _send_output
+    self.send(msg)
+  File "D:\Python\lib\http\client.py", line 952, in send
+    self.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000022FED0C0280>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED0C0280>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_rename.py", line 58, in test_upgrade_success
+    ret = requests.post(request_URL, files=files)
+  File "D:\Python\lib\site-packages\requests\api.py", line 117, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='172.21.1.21', port=80): Max retries exceeded with url: /api/v0/update/import (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022FED0C0280>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))
+
+2022-04-06 11:18:18,759    5588     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_rename.TestUpgrade)
+2022-04-06 11:18:18,761    5588     INFO result.py(93) - 耗时： 21.09607195854187
+2022-04-06 11:18:18,763    4604    ERROR test_runner.py(195) - 
+Error	test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)	test_upgrade_fail_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)	test_upgrade_success_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)	test_upgrade_success_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)	test_upgrade_success_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_multiple_model.TestUpgrade)	test_upgrade_success_1
+Error	test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_offline.TestUpgrade)	test_upgrade_fail_1
+Error	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_rename.TestUpgrade)	test_upgrade_success_1
+
+2022-04-06 11:18:18,766    4604     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:02:35.031683
+共计执行用例数量：7
+执行成功用例数量：0
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：7
+
+2022-04-06 11:18:18,769    4604     INFO logs.py(46) - 测试结束，生成基于HTML的测试报告

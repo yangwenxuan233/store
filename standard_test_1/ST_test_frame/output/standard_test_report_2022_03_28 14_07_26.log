@@ -1,0 +1,6 @@
+2022-03-28 14:07:26,685    1680     INFO test_runner.py(156) - 预计并发线程数：1
+2022-03-28 14:07:26,687    5676     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:07:26,835    5676     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+2022-03-28 14:07:26,943    5676     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:07:38,746    5676     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:07:39,009    5676     INFO logs.py(46) - 107

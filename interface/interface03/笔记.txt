@@ -1,0 +1,99 @@
+一：
+	抖音：
+		服务器：20万台
+		流量带宽：15TGB
+	国内：目前20TGB。
+	分布式：
+	集群：
+二：
+	接口场景？
+		系统与系统之间的访问？
+		系统内部进行调用？
+
+
+	接口?
+	做接口测试前提条件？
+		基于前后端系统分离模式才有必要做接口测试？
+		中央气象台数据接口：http://flash.weather.com.cn/wmaps/xml/china.xml
+	面试题1：
+		1.前端后端数据传输格式？
+		json(系统内部之间数据传输)
+		xml格式（系统与系统之间的数据传输）
+			json格式传输？
+			json:
+			xml:
+	
+		2.为什么要做接口测试？
+			功能完整性测试：
+				必须做---> 功能自动化 -->  性能测试
+			接口安全性测试：
+				sql注入：
+
+		3.你公司怎么做的呢？
+三：
+	fiddler的使用？
+	1.http协议：
+		请求：
+			请求头
+			请求行
+			请求空行
+			请求体
+		响应：
+			响应头
+				状态码：
+					1xx：正在处理中。没有意义。
+					200：服务器没有问题，哦了
+					3xx:重定向有关
+						302：临时重定向
+						302：www.newsite.com
+						304: 检查重定向
+	
+					4xx:浏览器问题
+						404 ：页面没找到
+						403 : 没权限访问
+					5xx:服务器问题
+						500：服务器未正常响应
+			响应行
+			响应空行
+			响应体
+		
+	面试第4问：
+		fiddler过滤器？
+			filters --> user filter  --> 配置想过滤的地址
+
+
+		5.我想在请求某个接口之前想修改一下数据？fiddler如何操作？
+			打断点？
+			rules --> automatic breakpoint -->
+		
+		6.如何模拟弱网？
+			rules --> customer rules --> 186  
+			  if (m_SimulateModem) {
+				    // Delay sends by 300ms per KB uploaded.
+				    oSession["request-trickle-delay"] = "17000"; 
+				    // Delay receives by 150ms per KB downloaded.
+				    oSession["response-trickle-delay"] = "16000"; 
+				}
+			rules --> 最后一项 --> 第一项点击生效
+
+		7.前后端传输的数据格式？
+			json?
+			xml?
+			7.1 使用jmeter模拟接口访问？
+		8.jmeter如何参数化？
+			1. csv data set config
+			2. 任务1：JDBC参数化
+			3. 任务2：电影票、影厅、影院、会员信息的关联。
+
+
+
+
+
+
+
+
+
+
+
+
+

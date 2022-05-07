@@ -1,0 +1,6 @@
+{"host":"localhost",
+  "user":"root",
+  "password":"root",
+  "database":"bilibili_data_spider",
+  "port":3306,
+  "charset": "utf8"}

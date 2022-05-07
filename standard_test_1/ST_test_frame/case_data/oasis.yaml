@@ -1,0 +1,32 @@
+-
+  agv_ip : 192.168.33.119
+  pgv_ip : 10.10.100.254
+  pgv_port : 4096
+  speed : 
+    - 300
+    - 600
+    - 1000
+    - 1500
+  acc_down : 
+    - 100
+    - 300
+    - 500
+  load : 
+    - nonload
+    - fullload
+    - overload
+  sros_version : 0.0.1
+  map : 地图
+  stations :
+    - 
+      - 1
+      - 2
+  target_station : 
+    - 2
+  times : 1
+  login :
+    username : admin
+    passwd : admin
+  check :
+    - result
+

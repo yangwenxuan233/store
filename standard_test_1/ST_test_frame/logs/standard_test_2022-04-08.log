@@ -1,0 +1,16 @@
+[2022-04-08 16:13:37] [INFO] battery_power(W)) 108.30239999999999
+[2022-04-08 16:14:13] [INFO] battery_power(W)) 108.30239999999999
+[2022-04-08 16:14:18] [INFO] battery_power(W)) 106.21
+[2022-04-08 16:14:32] [INFO] battery_power(W) 106.21
+[2022-04-08 16:22:17] [INFO] battery_nominal_capacity(mAh) 30000.0
+[2022-04-08 16:22:41] [INFO] battery_nominal_capacity(mAh) 30000.0
+[2022-04-08 16:22:58] [INFO] battery_nominal_capacity(mAh) 30000.0
+[2022-04-08 16:25:26] [INFO] battery_nominal_capacity(Ah) 30.0
+[2022-04-08 16:47:43] [INFO] battery_remain_time(h) 1500.0
+[2022-04-08 16:48:06] [INFO] battery_remain_time(h) 15.0
+[2022-04-08 16:49:10] [INFO] battery_remain_capacity(Ah) 15.0
+[2022-04-08 16:51:11] [INFO] battery_use_cycles 41.0
+[2022-04-08 16:51:23] [INFO] battery_use_cycles 41
+[2022-04-08 16:53:04] [INFO] battery_use_cycles 41
+[2022-04-08 16:53:15] [INFO] battery_use_cycles 41
+[2022-04-08 17:52:48] [INFO] battery_use_cycles 42

@@ -1,0 +1,146 @@
+{
+  "5257": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用dev账号登录"
+  },
+  "5259": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用producer账号登录"
+  },
+  "5256": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用deploy账号登录"
+  },
+  "5254": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用123账号登录"
+  },
+  "5255": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用admin账号登录"
+  },
+  "5258": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用fms账号登录"
+  },
+  "5260": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "使用root账号登录"
+  },
+  "5261": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取任务计划列表"
+  },
+  "5262": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取任务模板列表"
+  },
+  "5263": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取所有用户信息"
+  },
+  "5264": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取系统维护信息"
+  },
+  "5265": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取账号管理列表"
+  },
+  "5266": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取mission任务列表"
+  },
+  "5267": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "清除mission记录"
+  },
+  "5272": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取地图json文件"
+  },
+  "5273": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取地图列表"
+  },
+  "5271": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取地图PNG文件"
+  },
+  "5276": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "删除指定地图"
+  },
+  "5270": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "地图文件导入"
+  },
+  "5278": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取配置参数列表"
+  },
+  "5277": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取单个配置参数详细信息"
+  },
+  "5279": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "修改某个配置参数的值"
+  },
+  "5274": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取指定地图image图片"
+  },
+  "5269": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "导出指定的地图文件"
+  },
+  "5275": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取指定地图数据接口"
+  },
+  "5280": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "导出单机脚本任务"
+  },
+  "5281": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "导出单机脚本任务模板"
+  },
+  "5282": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "导入单机脚本任务模板"
+  },
+  "5283": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取单机脚本任务模板"
+  },
+  "5284": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "获取定时任务计划"
+  },
+  "5285": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "删除单机脚本任务模板"
+  },
+  "5286": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "删除定时任务计划"
+  },
+  "6825": {
+    "file_address": "testcase/SROS/Matrix/HttpInterface.py",
+    "title": "创建定时任务计划"
+  },
+  "6826": {
+    "file_address": "testcase/SROS/modbusInterface.py",
+    "title": "使用异常状态车辆的IP连接"
+  },
+  "6827": {
+    "file_address": "testcase/SROS/modbusInterface.py",
+    "title": "使用正常通讯的车辆IP连接"
+  },
+  "5197": {
+    "file_address": "testcase/SROS/modbusInterface.py",
+    "title": "触发急停"
+  }
+}

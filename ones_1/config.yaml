@@ -1,0 +1,50 @@
+#=======================================
+# Configuration parameters
+#=======================================
+
+
+ones_api:
+  ones_email: "weisen@standard-robots.com"
+  ones_passwd: "13876603223as"
+
+path:
+  log_output_path: "./log"
+  case_drive_path: "./testCaseDrive/"
+  ones_file_download_path: "./download/ONES/"
+  matrix_file_download_path: "./download/Matrix/"
+  ftp_file_download_path: "./download/FTP/"
+
+ftp_server:
+  port: 8008
+  user: 'dev'
+  password: 'dev'
+
+dingTalk:
+  token: 5ff3aa6053135d9c1ae50ddac172abc2823ec547770cb632cae3f429b3706a2b
+  secret: SECb6ef30ea5bd047ea64b7961bed677ce53b6d2e39fb3670ddc5596c44edaa5340
+
+email:
+  send_user: 1428785983@qq.com
+  email_host: smtp.qq.com
+  stmp_key: rzuabbobadbuhadc
+  send_list: {}
+
+fms_url: 'http://172.28.1.68:8088/api/v2/'
+
+locate_status :
+  '定位未启动' : 'ERROR'
+  '定位正在初始化' : 'ERROR'
+  '定位成功' : 'LOCATION_STATE_RUNNING'
+  '正在重定位' : 'ERROR'
+  '定位错误，需要重新启动定位' : 'ERROR'
+move_status :
+  '空闲状态' : 'MT_NA'
+  '等待开始执行' : MT_WAIT_FOR_START
+  '正在执行' : 'MT_RUNNING'
+  '暂停执行' : 'MT_PAUSED'
+  '执行结束' : 'MT_FINISHED'
+  '正在取消' : 'MT_IN_CANCEL'
+  '交通管制' : 'MT_WAIT_FOR_CHECKPOINT'
+
+system_status :
+  '' : 

@@ -1,0 +1,17 @@
+2022-03-28 14:58:25,100   13976     INFO test_runner.py(156) - 预计并发线程数：1
+2022-03-28 14:58:25,107   15764     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:58:25,564   15764    ERROR result.py(177) - 测试产生错误： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_abnormal_size.py", line 50, in test_upgrade_fail
+    self.firmware_path = list(self.base_path.glob(f"**/{self.firmware_name}"))[0]
+IndexError: list index out of range
+
+2022-03-28 14:58:25,595   15764     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:58:25,626   15764     INFO result.py(93) - 耗时： 0.4516124725341797
+2022-03-28 14:58:25,659   15764     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-03-28 14:58:25,860   15764     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+2022-03-28 14:58:26,018   15764     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:58:35,877   15764     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:58:36,173   15764     INFO logs.py(46) - 119

@@ -1,0 +1,44 @@
+一：
+	python:
+	JDK(java开发工具)
+	SDK（针对android开发的工具）
+		ADB:全能组件。
+
+	模拟器：夜神模拟器，雷神模拟器，逍遥模拟器
+	zhihu.apk  qq.apk
+
+二：
+	启动模拟，使用ABD命令。%Android_home%
+	
+	连接模拟器：
+	1. adb connect 127.0.0.1:62001
+	连不上:
+		1.adb kill-sever 
+		2.adb start-server
+		3.adb nodaemon server
+	2.查看是否连接上 ：adb devices
+
+	3.软件的安装：
+		adb install xx.apk
+	4.卸载软件
+		4.1查看软件包：adb shell pm  list package  -3 列举出最近安装的包
+		4.2 adb uninstall  com.xxx.yyy.xxx
+	5.鼠标点击
+		adb shell input  tap  x   y
+	6.滑动操作
+		adb shell input  swipe 起始x    起始y    结束x   结束y    持续时间
+
+	7.查看日志：
+		adb logcat | findstr "过滤字符"
+
+
+	任务：
+		知乎、qq、京东、抖音，谷歌浏览器
+		安装卸载测试，兼容性
+
+		adb在真机上操作一遍。
+			打开开发者工具
+
+
+
+

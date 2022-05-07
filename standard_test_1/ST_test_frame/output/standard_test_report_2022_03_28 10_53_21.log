@@ -1,0 +1,221 @@
+2022-03-28 10:53:22,142    3524     INFO test_runner.py(156) - 预计并发线程数：1
+2022-03-28 10:53:22,155    9864     INFO result.py(71) - 开始测试： on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size (unittest.loader._FailedTest)
+2022-03-28 10:53:22,180    9864    ERROR result.py(177) - 测试产生错误： on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size (unittest.loader._FailedTest)
+ImportError: Failed to import test module: on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\Python\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_abnormal_size.py", line 21, in <module>
+    class TestUpgrade(unittest.TestCase):
+  File "D:\Python\lib\site-packages\ddt.py", line 384, in ddt
+    return wrapper(arg) if inspect.isclass(arg) else wrapper
+  File "D:\Python\lib\site-packages\ddt.py", line 378, in wrapper
+    process_file_data(cls, name, func, file_attr)
+  File "D:\Python\lib\site-packages\ddt.py", line 265, in process_file_data
+    data = yaml.safe_load(f)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "D:\Python\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 258, in fetch_more_tokens
+    raise ScannerError("while scanning for the next token", None,
+yaml.scanner.ScannerError: while scanning for the next token
+found character '@' that cannot start any token
+  in "D:\code\standard_test_1\ST_test_frame\case_data\board.yaml", line 7, column 23
+
+
+2022-03-28 10:53:22,224    9864     INFO result.py(92) - 测试结束： on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size (unittest.loader._FailedTest)
+2022-03-28 10:53:22,255    9864     INFO result.py(93) - 耗时： 0.04394698143005371
+2022-03-28 10:53:22,288    9864     INFO result.py(71) - 开始测试： on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade (unittest.loader._FailedTest)
+2022-03-28 10:53:22,319    9864    ERROR result.py(177) - 测试产生错误： on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade (unittest.loader._FailedTest)
+ImportError: Failed to import test module: on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\Python\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_completely_upgrade.py", line 21, in <module>
+    class TestUpgrade(unittest.TestCase):
+  File "D:\Python\lib\site-packages\ddt.py", line 384, in ddt
+    return wrapper(arg) if inspect.isclass(arg) else wrapper
+  File "D:\Python\lib\site-packages\ddt.py", line 378, in wrapper
+    process_file_data(cls, name, func, file_attr)
+  File "D:\Python\lib\site-packages\ddt.py", line 265, in process_file_data
+    data = yaml.safe_load(f)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "D:\Python\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 258, in fetch_more_tokens
+    raise ScannerError("while scanning for the next token", None,
+yaml.scanner.ScannerError: while scanning for the next token
+found character '@' that cannot start any token
+  in "D:\code\standard_test_1\ST_test_frame\case_data\board.yaml", line 7, column 23
+
+
+2022-03-28 10:53:22,348    9864     INFO result.py(92) - 测试结束： on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade (unittest.loader._FailedTest)
+2022-03-28 10:53:22,379    9864     INFO result.py(93) - 耗时： 0.030544519424438477
+2022-03-28 10:53:22,412    9864     INFO result.py(71) - 开始测试： on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format (unittest.loader._FailedTest)
+2022-03-28 10:53:22,443    9864    ERROR result.py(177) - 测试产生错误： on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format (unittest.loader._FailedTest)
+ImportError: Failed to import test module: on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\Python\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_damaged_format.py", line 21, in <module>
+    class TestUpgrade(unittest.TestCase):
+  File "D:\Python\lib\site-packages\ddt.py", line 384, in ddt
+    return wrapper(arg) if inspect.isclass(arg) else wrapper
+  File "D:\Python\lib\site-packages\ddt.py", line 378, in wrapper
+    process_file_data(cls, name, func, file_attr)
+  File "D:\Python\lib\site-packages\ddt.py", line 265, in process_file_data
+    data = yaml.safe_load(f)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "D:\Python\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 258, in fetch_more_tokens
+    raise ScannerError("while scanning for the next token", None,
+yaml.scanner.ScannerError: while scanning for the next token
+found character '@' that cannot start any token
+  in "D:\code\standard_test_1\ST_test_frame\case_data\board.yaml", line 7, column 23
+
+
+2022-03-28 10:53:22,486    9864     INFO result.py(92) - 测试结束： on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format (unittest.loader._FailedTest)
+2022-03-28 10:53:22,517    9864     INFO result.py(93) - 耗时： 0.04277229309082031
+2022-03-28 10:53:22,549    9864     INFO result.py(71) - 开始测试： on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition (unittest.loader._FailedTest)
+2022-03-28 10:53:22,552    9864    ERROR result.py(177) - 测试产生错误： on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition (unittest.loader._FailedTest)
+ImportError: Failed to import test module: on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition
+Traceback (most recent call last):
+  File "D:\Python\lib\unittest\loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\Python\lib\unittest\loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_different_edition.py", line 21, in <module>
+    class TestUpgrade(unittest.TestCase):
+  File "D:\Python\lib\site-packages\ddt.py", line 384, in ddt
+    return wrapper(arg) if inspect.isclass(arg) else wrapper
+  File "D:\Python\lib\site-packages\ddt.py", line 378, in wrapper
+    process_file_data(cls, name, func, file_attr)
+  File "D:\Python\lib\site-packages\ddt.py", line 265, in process_file_data
+    data = yaml.safe_load(f)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+  File "D:\Python\lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "D:\Python\lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "D:\Python\lib\site-packages\yaml\composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "D:\Python\lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 116, in check_token
+    self.fetch_more_tokens()
+  File "D:\Python\lib\site-packages\yaml\scanner.py", line 258, in fetch_more_tokens
+    raise ScannerError("while scanning for the next token", None,
+yaml.scanner.ScannerError: while scanning for the next token
+found character '@' that cannot start any token
+  in "D:\code\standard_test_1\ST_test_frame\case_data\board.yaml", line 7, column 23
+
+
+2022-03-28 10:53:22,560    9864     INFO result.py(92) - 测试结束： on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition (unittest.loader._FailedTest)
+2022-03-28 10:53:22,561    9864     INFO result.py(93) - 耗时： 0.008968114852905273
+2022-03-28 10:53:22,564    3524    ERROR test_runner.py(195) - 
+Error	on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size (unittest.loader._FailedTest)
+Error	on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade (unittest.loader._FailedTest)
+Error	on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format (unittest.loader._FailedTest)
+Error	on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition (unittest.loader._FailedTest)
+
+2022-03-28 10:53:22,569    3524     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.688371
+共计执行用例数量：4
+执行成功用例数量：0
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：4
+
+2022-03-28 10:53:22,574    3524     INFO logs.py(46) - 测试结束，生成基于HTML的测试报告

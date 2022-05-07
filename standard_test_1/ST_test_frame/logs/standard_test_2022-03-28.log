@@ -1,0 +1,390 @@
+[2022-03-28 10:53:21] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 10:53:22] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 10:54:48] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 10:54:49] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:01:48] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:01:50] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:01:50] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:01:50] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:01:50] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:01:50] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:01:50] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:04:47] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:04:47] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+[2022-03-28 14:04:47] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+[2022-03-28 14:04:48] [INFO] 正在上传文件...
+[2022-03-28 14:04:48] [INFO] 正在上传文件...
+[2022-03-28 14:04:59] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:04:59] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:04:59] [INFO] 105
+[2022-03-28 14:04:59] [INFO] 105
+[2022-03-28 14:07:26] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:07:26] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+[2022-03-28 14:07:26] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+[2022-03-28 14:07:26] [INFO] 正在上传文件...
+[2022-03-28 14:07:26] [INFO] 正在上传文件...
+[2022-03-28 14:07:38] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:07:38] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:07:39] [INFO] 107
+[2022-03-28 14:07:39] [INFO] 107
+[2022-03-28 14:12:11] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:12:24] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:12:24] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+[2022-03-28 14:12:24] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+[2022-03-28 14:12:24] [INFO] 正在上传文件...
+[2022-03-28 14:12:24] [INFO] 正在上传文件...
+[2022-03-28 14:12:38] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:12:38] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:12:39] [INFO] 109
+[2022-03-28 14:12:39] [INFO] 109
+[2022-03-28 14:16:07] [INFO] 升级结果 0
+[2022-03-28 14:16:07] [INFO] 升级结果 0
+[2022-03-28 14:16:08] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:16:08] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:16:08] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:16:08] [INFO] 正在上传文件...
+[2022-03-28 14:16:08] [INFO] 正在上传文件...
+[2022-03-28 14:16:08] [INFO] 正在上传文件...
+[2022-03-28 14:16:18] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:18] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:18] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:19] [INFO] 110
+[2022-03-28 14:16:19] [INFO] 110
+[2022-03-28 14:16:19] [INFO] 110
+[2022-03-28 14:16:42] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:16:42] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:16:42] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:16:49] [INFO] 升级结束
+[2022-03-28 14:16:49] [INFO] 升级结束
+[2022-03-28 14:16:49] [INFO] 升级结束
+[2022-03-28 14:16:49] [INFO] 升级结果 1
+[2022-03-28 14:16:49] [INFO] 升级结果 1
+[2022-03-28 14:16:49] [INFO] 升级结果 1
+[2022-03-28 14:16:49] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 14:16:49] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 14:16:49] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 14:16:49] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 14:16:49] [INFO] 正在上传文件...
+[2022-03-28 14:16:49] [INFO] 正在上传文件...
+[2022-03-28 14:16:49] [INFO] 正在上传文件...
+[2022-03-28 14:16:49] [INFO] 正在上传文件...
+[2022-03-28 14:16:59] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:59] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:59] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:59] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:16:59] [INFO] 111
+[2022-03-28 14:16:59] [INFO] 111
+[2022-03-28 14:16:59] [INFO] 111
+[2022-03-28 14:16:59] [INFO] 111
+[2022-03-28 14:17:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:17:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:17:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:17:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 14:17:36] [INFO] 升级结束
+[2022-03-28 14:17:36] [INFO] 升级结束
+[2022-03-28 14:17:36] [INFO] 升级结束
+[2022-03-28 14:17:36] [INFO] 升级结束
+[2022-03-28 14:17:36] [INFO] 升级结果 1
+[2022-03-28 14:17:36] [INFO] 升级结果 1
+[2022-03-28 14:17:36] [INFO] 升级结果 1
+[2022-03-28 14:17:36] [INFO] 升级结果 1
+[2022-03-28 14:17:37] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 14:17:37] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 14:17:37] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 14:17:37] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 14:17:37] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 14:17:37] [INFO] 正在上传文件...
+[2022-03-28 14:17:37] [INFO] 正在上传文件...
+[2022-03-28 14:17:37] [INFO] 正在上传文件...
+[2022-03-28 14:17:37] [INFO] 正在上传文件...
+[2022-03-28 14:17:37] [INFO] 正在上传文件...
+[2022-03-28 14:17:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:17:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:17:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:17:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:17:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:17:48] [INFO] 112
+[2022-03-28 14:17:48] [INFO] 112
+[2022-03-28 14:17:48] [INFO] 112
+[2022-03-28 14:17:48] [INFO] 112
+[2022-03-28 14:17:48] [INFO] 112
+[2022-03-28 14:18:16] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F248EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:16] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F248EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:16] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F248EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:16] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F248EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:16] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F248EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:21] [INFO] 升级结束
+[2022-03-28 14:18:21] [INFO] 升级结束
+[2022-03-28 14:18:21] [INFO] 升级结束
+[2022-03-28 14:18:21] [INFO] 升级结束
+[2022-03-28 14:18:21] [INFO] 升级结束
+[2022-03-28 14:18:21] [INFO] 升级结果 1
+[2022-03-28 14:18:21] [INFO] 升级结果 1
+[2022-03-28 14:18:21] [INFO] 升级结果 1
+[2022-03-28 14:18:21] [INFO] 升级结果 1
+[2022-03-28 14:18:21] [INFO] 升级结果 1
+[2022-03-28 14:18:22] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:18:22] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:18:22] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:18:22] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:18:22] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:18:22] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:18:22] [INFO] 正在上传文件...
+[2022-03-28 14:18:22] [INFO] 正在上传文件...
+[2022-03-28 14:18:22] [INFO] 正在上传文件...
+[2022-03-28 14:18:22] [INFO] 正在上传文件...
+[2022-03-28 14:18:22] [INFO] 正在上传文件...
+[2022-03-28 14:18:22] [INFO] 正在上传文件...
+[2022-03-28 14:18:31] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:18:31] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:18:31] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:18:31] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:18:31] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:18:31] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:18:31] [INFO] 113
+[2022-03-28 14:18:31] [INFO] 113
+[2022-03-28 14:18:31] [INFO] 113
+[2022-03-28 14:18:31] [INFO] 113
+[2022-03-28 14:18:31] [INFO] 113
+[2022-03-28 14:18:31] [INFO] 113
+[2022-03-28 14:18:59] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:59] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:59] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:59] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:59] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:18:59] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 14:19:04] [INFO] 升级结束
+[2022-03-28 14:19:04] [INFO] 升级结束
+[2022-03-28 14:19:04] [INFO] 升级结束
+[2022-03-28 14:19:04] [INFO] 升级结束
+[2022-03-28 14:19:04] [INFO] 升级结束
+[2022-03-28 14:19:04] [INFO] 升级结束
+[2022-03-28 14:19:04] [INFO] 升级结果 1
+[2022-03-28 14:19:04] [INFO] 升级结果 1
+[2022-03-28 14:19:04] [INFO] 升级结果 1
+[2022-03-28 14:19:04] [INFO] 升级结果 1
+[2022-03-28 14:19:04] [INFO] 升级结果 1
+[2022-03-28 14:19:04] [INFO] 升级结果 1
+[2022-03-28 14:19:04] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:19:04] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:19:04] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:19:04] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:19:04] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:19:04] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 14:57:51] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:57:52] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:57:52] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:57:52] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:57:52] [INFO] 正在上传文件...
+[2022-03-28 14:57:52] [INFO] 正在上传文件...
+[2022-03-28 14:57:52] [INFO] 正在上传文件...
+[2022-03-28 14:58:24] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:58:25] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:58:25] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:58:25] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 14:58:26] [INFO] 正在上传文件...
+[2022-03-28 14:58:26] [INFO] 正在上传文件...
+[2022-03-28 14:58:26] [INFO] 正在上传文件...
+[2022-03-28 14:58:35] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:58:35] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:58:35] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:58:36] [INFO] 119
+[2022-03-28 14:58:36] [INFO] 119
+[2022-03-28 14:58:36] [INFO] 119
+[2022-03-28 14:59:08] [INFO] now run: D:\code\standard_test_1\ST_test_frame\standard_case\
+[2022-03-28 14:59:08] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.update
+[2022-03-28 14:59:08] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.update
+[2022-03-28 14:59:08] [INFO] 正在上传文件...
+[2022-03-28 14:59:08] [INFO] 正在上传文件...
+[2022-03-28 14:59:21] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:59:21] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 14:59:24] [INFO] 121
+[2022-03-28 14:59:24] [INFO] 121
+[2022-03-28 15:02:52] [INFO] 升级结果 0
+[2022-03-28 15:02:52] [INFO] 升级结果 0
+[2022-03-28 15:02:53] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:02:53] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:02:53] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:02:53] [INFO] 正在上传文件...
+[2022-03-28 15:02:53] [INFO] 正在上传文件...
+[2022-03-28 15:02:53] [INFO] 正在上传文件...
+[2022-03-28 15:03:03] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:03] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:03] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:03] [INFO] 121
+[2022-03-28 15:03:03] [INFO] 121
+[2022-03-28 15:03:03] [INFO] 121
+[2022-03-28 15:03:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:03:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:03:25] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:03:30] [INFO] 升级结束
+[2022-03-28 15:03:30] [INFO] 升级结束
+[2022-03-28 15:03:30] [INFO] 升级结束
+[2022-03-28 15:03:30] [INFO] 升级结果 1
+[2022-03-28 15:03:30] [INFO] 升级结果 1
+[2022-03-28 15:03:30] [INFO] 升级结果 1
+[2022-03-28 15:03:31] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 15:03:31] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 15:03:31] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 15:03:31] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+[2022-03-28 15:03:31] [INFO] 正在上传文件...
+[2022-03-28 15:03:31] [INFO] 正在上传文件...
+[2022-03-28 15:03:31] [INFO] 正在上传文件...
+[2022-03-28 15:03:31] [INFO] 正在上传文件...
+[2022-03-28 15:03:41] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:41] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:41] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:41] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:03:41] [INFO] 122
+[2022-03-28 15:03:41] [INFO] 122
+[2022-03-28 15:03:41] [INFO] 122
+[2022-03-28 15:03:41] [INFO] 122
+[2022-03-28 15:04:09] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B08CBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:04:09] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B08CBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:04:09] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B08CBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:04:09] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B08CBB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:04:14] [INFO] 升级结束
+[2022-03-28 15:04:14] [INFO] 升级结束
+[2022-03-28 15:04:14] [INFO] 升级结束
+[2022-03-28 15:04:14] [INFO] 升级结束
+[2022-03-28 15:04:14] [INFO] 升级结果 1
+[2022-03-28 15:04:14] [INFO] 升级结果 1
+[2022-03-28 15:04:14] [INFO] 升级结果 1
+[2022-03-28 15:04:14] [INFO] 升级结果 1
+[2022-03-28 15:04:15] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 15:04:15] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 15:04:15] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 15:04:15] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 15:04:15] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+[2022-03-28 15:04:15] [INFO] 正在上传文件...
+[2022-03-28 15:04:15] [INFO] 正在上传文件...
+[2022-03-28 15:04:15] [INFO] 正在上传文件...
+[2022-03-28 15:04:15] [INFO] 正在上传文件...
+[2022-03-28 15:04:15] [INFO] 正在上传文件...
+[2022-03-28 15:04:25] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:04:25] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:04:25] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:04:25] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:04:25] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:04:25] [INFO] 123
+[2022-03-28 15:04:25] [INFO] 123
+[2022-03-28 15:04:25] [INFO] 123
+[2022-03-28 15:04:25] [INFO] 123
+[2022-03-28 15:04:25] [INFO] 123
+[2022-03-28 15:04:49] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:04:49] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:04:49] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:04:49] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:04:49] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:04:55] [INFO] 升级结束
+[2022-03-28 15:04:55] [INFO] 升级结束
+[2022-03-28 15:04:55] [INFO] 升级结束
+[2022-03-28 15:04:55] [INFO] 升级结束
+[2022-03-28 15:04:55] [INFO] 升级结束
+[2022-03-28 15:04:55] [INFO] 升级结果 1
+[2022-03-28 15:04:55] [INFO] 升级结果 1
+[2022-03-28 15:04:55] [INFO] 升级结果 1
+[2022-03-28 15:04:55] [INFO] 升级结果 1
+[2022-03-28 15:04:55] [INFO] 升级结果 1
+[2022-03-28 15:04:55] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:04:55] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:04:55] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:04:55] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:04:55] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:04:55] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+[2022-03-28 15:04:55] [INFO] 正在上传文件...
+[2022-03-28 15:04:55] [INFO] 正在上传文件...
+[2022-03-28 15:04:55] [INFO] 正在上传文件...
+[2022-03-28 15:04:55] [INFO] 正在上传文件...
+[2022-03-28 15:04:55] [INFO] 正在上传文件...
+[2022-03-28 15:04:55] [INFO] 正在上传文件...
+[2022-03-28 15:05:05] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:05] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:05] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:05] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:05] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:05] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:05] [INFO] 124
+[2022-03-28 15:05:05] [INFO] 124
+[2022-03-28 15:05:05] [INFO] 124
+[2022-03-28 15:05:05] [INFO] 124
+[2022-03-28 15:05:05] [INFO] 124
+[2022-03-28 15:05:05] [INFO] 124
+[2022-03-28 15:05:34] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B020A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:05:34] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B020A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:05:34] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B020A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:05:34] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B020A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:05:34] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B020A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:05:34] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024F0B020A60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+[2022-03-28 15:05:39] [INFO] 升级结束
+[2022-03-28 15:05:39] [INFO] 升级结束
+[2022-03-28 15:05:39] [INFO] 升级结束
+[2022-03-28 15:05:39] [INFO] 升级结束
+[2022-03-28 15:05:39] [INFO] 升级结束
+[2022-03-28 15:05:39] [INFO] 升级结束
+[2022-03-28 15:05:39] [INFO] 升级结果 1
+[2022-03-28 15:05:39] [INFO] 升级结果 1
+[2022-03-28 15:05:39] [INFO] 升级结果 1
+[2022-03-28 15:05:39] [INFO] 升级结果 1
+[2022-03-28 15:05:39] [INFO] 升级结果 1
+[2022-03-28 15:05:39] [INFO] 升级结果 1
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] D:\code\standard_test_1\ST_test_frame\case_data\demo-SROS.update
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:40] [INFO] 正在上传文件...
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] <class 'web.webapi.OK'>
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:05:48] [INFO] 125
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:16] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结束
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 升级结果 1
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:06:21] [INFO] 测试结束，生成基于HTML的测试报告
+[2022-03-28 15:10:38] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:11:53] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:14:51] [ERROR] ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2022-03-28 15:18:12] [ERROR] HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000019C6E0A0550>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))

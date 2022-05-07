@@ -1,0 +1,80 @@
+2022-03-28 14:12:24,456   16092     INFO test_runner.py(156) - 预计并发线程数：1
+2022-03-28 14:12:24,465   16168     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:12:24,612   16168     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-abnormal-size.ubdate
+2022-03-28 14:12:24,797   16168     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:12:38,772   16168     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:12:39,080   16168     INFO logs.py(46) - 109
+2022-03-28 14:16:07,610   16168     INFO logs.py(46) - 升级结果 0
+2022-03-28 14:16:07,752   16168     INFO result.py(158) - 测试执行通过： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:16:07,782   16168     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)
+2022-03-28 14:16:07,813   16168     INFO result.py(93) - 耗时： 223.30920505523682
+2022-03-28 14:16:07,846   16168     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-03-28 14:16:08,015   16168     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+2022-03-28 14:16:08,186   16168     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:16:18,682   16168     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:16:19,012   16168     INFO logs.py(46) - 110
+2022-03-28 14:16:42,968   16168    ERROR logs.py(55) - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-03-28 14:16:49,352   16168     INFO logs.py(46) - 升级结束
+2022-03-28 14:16:49,382   16168     INFO logs.py(46) - 升级结果 1
+2022-03-28 14:16:49,507   16168     INFO result.py(158) - 测试执行通过： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-03-28 14:16:49,538   16168     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)
+2022-03-28 14:16:49,569   16168     INFO result.py(93) - 耗时： 41.662131547927856
+2022-03-28 14:16:49,602   16168     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-03-28 14:16:49,785   16168     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3.update
+2022-03-28 14:16:49,879   16168     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:16:59,231   16168     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:16:59,572   16168     INFO logs.py(46) - 111
+2022-03-28 14:17:25,666   16168    ERROR logs.py(55) - ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2022-03-28 14:17:36,669   16168     INFO logs.py(46) - 升级结束
+2022-03-28 14:17:36,761   16168     INFO logs.py(46) - 升级结果 1
+2022-03-28 14:17:36,932   16168     INFO result.py(158) - 测试执行通过： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-03-28 14:17:36,963   16168     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)
+2022-03-28 14:17:36,994   16168     INFO result.py(93) - 耗时： 47.332613706588745
+2022-03-28 14:17:37,011   16168     INFO result.py(71) - 开始测试： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)
+2022-03-28 14:17:37,211   16168     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.17.0-d978eb3-damaged-format.zip
+2022-03-28 14:17:37,412   16168     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:17:48,127   16168     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:17:48,452   16168     INFO logs.py(46) - 112
+2022-03-28 14:18:16,498   16168    ERROR logs.py(55) - HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F248EB0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-03-28 14:18:21,757   16168     INFO logs.py(46) - 升级结束
+2022-03-28 14:18:21,882   16168     INFO logs.py(46) - 升级结果 1
+2022-03-28 14:18:22,210   16168  WARNING result.py(192) - 测试未通过： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\ddt.py", line 191, in wrapper
+    return func(self, *args, **kwargs)
+  File "D:\code\standard_test_1\ST_test_frame\standard_case\on_board_system\test_sros_upgrade\test_sros_upgrade_damaged_format.py", line 76, in test_upgrade_fail
+    self.assertEqual(0, result)
+AssertionError: 0 != 1
+
+2022-03-28 14:18:22,241   16168     INFO result.py(92) - 测试结束： test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)
+2022-03-28 14:18:22,256   16168     INFO result.py(93) - 耗时： 45.2298903465271
+2022-03-28 14:18:22,287   16168     INFO result.py(71) - 开始测试： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-03-28 14:18:22,288   16168     INFO logs.py(46) - D:\code\standard_test_1\ST_test_frame\case_data\SROS-v4.16.0-352fc27.update
+2022-03-28 14:18:22,289   16168     INFO logs.py(46) - 正在上传文件...
+2022-03-28 14:18:31,499   16168     INFO logs.py(46) - <class 'web.webapi.OK'>
+2022-03-28 14:18:31,658   16168     INFO logs.py(46) - 113
+2022-03-28 14:18:59,002   16168    ERROR logs.py(55) - HTTPConnectionPool(host='192.168.33.21', port=80): Max retries exceeded with url: /api/v0/upgrade_record/system (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001752F236DC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-03-28 14:19:04,080   16168     INFO logs.py(46) - 升级结束
+2022-03-28 14:19:04,081   16168     INFO logs.py(46) - 升级结果 1
+2022-03-28 14:19:04,082   16168     INFO result.py(158) - 测试执行通过： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-03-28 14:19:04,082   16168     INFO result.py(92) - 测试结束： test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)
+2022-03-28 14:19:04,083   16168     INFO result.py(93) - 耗时： 41.795623779296875
+2022-03-28 14:19:04,086   16092     INFO test_runner.py(193) - 
+Pass	test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_abnormal_size.TestUpgrade)	test_upgrade_fail_1
+Pass	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_back_edition.TestUpgrade)	test_upgrade_success_1
+Pass	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_completely_upgrade.TestUpgrade)	test_upgrade_success_1
+Pass	test_upgrade_success_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_different_edition.TestUpgrade)	test_upgrade_success_1
+
+2022-03-28 14:19:04,090   16092    ERROR test_runner.py(195) - 
+Fail	test_upgrade_fail_1 (on_board_system.test_sros_upgrade.test_sros_upgrade_damaged_format.TestUpgrade)	test_upgrade_fail_1
+
+2022-03-28 14:19:04,093   16092     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:06:39.788080
+共计执行用例数量：5
+执行成功用例数量：4
+执行失败用例数量：1
+跳过执行用例数量：0
+产生异常用例数量：0
+
+2022-03-28 14:19:04,095   16092     INFO logs.py(46) - 测试结束，生成基于HTML的测试报告

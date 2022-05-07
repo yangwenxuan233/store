@@ -1,0 +1,20 @@
+[
+	{
+		"weight": 20,
+		"length": 10,
+		"width": 20,
+		"height": 30,
+		"dim_unit": "mm",
+		"destination": "Shen Zhen",
+		"index": 1
+	},
+	{
+		"weight": 100,
+		"length": 300,
+		"width": 40,
+		"height": 60,
+		"dim_unit": "cm",
+		"destination": "Shen Zhen",
+		"index": 2		
+	}
+]

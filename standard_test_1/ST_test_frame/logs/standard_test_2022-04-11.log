@@ -1,0 +1,7 @@
+[2022-04-11 09:32:54] [INFO] battery_remain_capacity(Ah) 24.9
+[2022-04-11 09:33:12] [INFO] battery_use_cycles 42
+[2022-04-11 09:35:39] [INFO] battery_use_cycles 42
+[2022-04-11 10:01:48] [INFO] battery_remain_capacity(Ah) 24.0
+[2022-04-11 10:30:07] [INFO] battery_remain_capacity(Ah) 23.1
+[2022-04-11 11:36:27] [INFO] battery_nominal_capacity(Ah) 30.0
+[2022-04-11 11:37:09] [INFO] battery_current(A) 2.19

@@ -1,0 +1,42 @@
+-
+  ip : 192.168.33.123
+  ips : 
+    - 172.28.1.21
+    - 172.28.1.21
+    - 172.28.1.21
+    - 172.28.1.21
+    - 172.28.1.21
+  sros_name : 
+    - SROS-v4.17.0-d978eb3.update
+    - SROS-v4.16.0-352fc27.update
+    - SROS-v4.17.0-d978eb3-abnormal-size.update
+    - SROS-v4.17.0-d978eb3-damaged-format.zip
+    - demo-SROS.update
+  version_str : '4.17.0(d978eb3)'
+  fms_url : 'http://192.168.33.159:8088/api/v2/'
+  fms_id : 12
+  map : 地图
+  station :
+    - 1
+    - 2
+    - 3
+  times : 100
+  login :
+    username : admin
+    password : admin
+  check :
+    - result
+  locate_status :
+    '定位未启动' : 'ERROR'
+    '定位正在初始化' : 'ERROR'
+    '定位成功' : 'LOCATION_STATE_RUNNING'
+    '正在重定位' : 'ERROR'
+    '定位错误，需要重新启动定位' : 'ERROR'
+  move_status :
+    '空闲状态' : 'MT_NA'
+    '等待开始执行' : MT_WAIT_FOR_START
+    '正在执行' : 'MT_RUNNING'
+    '暂停执行' : 'MT_PAUSED'
+    '执行结束' : 'MT_FINISHED'
+    '正在取消' : 'MT_IN_CANCEL'
+    '交通管制' : 'MT_WAIT_FOR_CHECKPOINT'
